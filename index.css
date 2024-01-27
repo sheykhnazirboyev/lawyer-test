@@ -1,0 +1,240 @@
+:root {
+    --color-Grey-7: #2D2F30;
+    --color-Grey-5: #4F4F4F;
+    --font-poppins: 'Poppins', sans-serif;
+    --font-playfair: 'Playfair Display', serif;
+    --color-blue: #094B72;
+    --color-skyblue: #F2F7FF;
+}
+.container {
+    /* border: 1px solid red; */
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.navbar  {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: var(--font-poppins);
+}
+.navbar__logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 50%;
+}
+.navbar__logo  p{
+    margin-left: 10px;
+    font-size: 20px;
+} 
+
+.navbar__menus {
+    width: 50%;
+}
+
+.navbar__menus {
+    list-style: none;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 56px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.navbar__menus a {
+    text-decoration: none;
+    color: var(--color-Grey-7);
+}
+
+
+.hero__content {
+    height: 924px;
+    position: relative;
+    padding: 150px 0px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.hero__content img {
+    position: absolute;
+    right: -48px;
+    top: -50px;
+}
+
+.hero__content h1 {
+    font-size: 90px;
+    font-family: var(--font-playfair);
+    color: var(--color-blue);
+}
+
+.hero__content p {
+    font-size: 24px;
+    font-family: var(--font-poppins);
+    color: var(--color-Grey-5);
+    max-width: 590px;
+}
+
+.hero__content  button {
+    margin-top: 42px;
+    font-size: 16px;
+    padding: 29px 36px;
+    border: none;
+    background-color: var(--color-blue);
+    color: white;
+    border-radius: 8px;
+    font-family: var(--font-poppins);
+}
+
+.section-why {
+    background-color: var(--color-skyblue);
+}
+
+.why {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 126px 0px;
+}
+
+.section-why__cards {
+    width: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 30px;
+}
+
+.section-why__card-item {
+    max-width: 256px;
+    padding: 24px;
+    -webkit-box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
+            box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    background-color: white;
+}
+
+.section-why__txt {
+    width: 40%;
+    padding-top: 48px;
+}
+
+.section-why__txt__content {
+    max-width: 419px;
+}
+
+.achievements {
+    background-image: url("./images/BG.png");
+    color: white;
+    text-align: center;
+    padding: 53px;
+}
+
+.counts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 15px;
+}
+.count-item {
+    width: 255px;
+}
+.count-item h1 {
+    font-size: 48px;
+}
+
+.clients {
+    background-color: var(--color-skyblue);
+    text-align: center;
+}
+.clients-content {
+    padding: 61px;
+}
+.clients__cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 30px;
+    margin-top: 51px;
+}
+
+.clients__card-item{
+    background-color: white;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
+            box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
+    padding: 32px;
+}
+
+.footer {
+    background-color: var(--color-blue);
+    color: white;
+}
+
+.footer__logo {
+    width: 50%;
+}
+
+.footer-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 99px;
+}
+
+.footer__menus {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 30px;
+}
+.footer__menu-item {
+    width: 160px;
+}
+.footer__menu-item ul {
+    list-style: none;
+    padding: 0;
+}
+.footer__menu-item ul li {
+    margin: 12px 0px;
+}
+
+.footer__menu-item ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.cta {
+    background: #004D7B;
+    color: white;
+}
+
+.cta-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 22px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.cta_icons a {
+    margin: 0px 16px;
+}
